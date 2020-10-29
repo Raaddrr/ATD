@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*CSS DOCUMENT*/
+
+body {
+    background-color: #e4ff6bfa;
+}
+
+/* Partie en-tête */
+
+#topnav {
+    display: flex;
+    background-color: #3621aa;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100px;
+}
+
+    /* Partie en-tête gauche */
+
+#zonelogo {         /* boite 1 */
+    background-color: #55928d;
+    width: 70%;
+}
+
+    /* Partie en-tête droite */
+
+
+.listenav {
+    display: flex;
+    background-color: #9acacc;
+    align-items: flex-start;
+    height: 100%;
+    width: 25%;
+}
+
+.liennav {
+    list-style-type: none;
+}
+
+.liennav a:hover {
+    color: white;
+}
+
+/* Partie milieu de page */
+
+#central {
+    display: flex;
+    background-color: #c76565;
+    justify-content: space-between;
+    height: auto;
+    border: 2px solid black;
+}
+
+    /* Partie milieu gauche */
+
+#centreg {
+    background-color: #459e9a;
+    width: 27%;
+}
+
+    /* Partie milieur droit */
+
+#actualités {
+    background-color: #7cbbb6;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+    padding: 5px;
+}
+
+.tmoyen {
+    display: inline-block;
+    background-color: #2c5fe9;
+    /*margin: 5px;*/
+    width: 25%;
+    height: 49%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.tgrand {
+    display: inline-block;
+    background-color: #2c5fe9;
+    /*margin: 5px;*/
+    width: 49%;
+    height: 49%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.tmoyen:nth-child {
+    flex-basis: auto;
+}
+
+.tgrand:nth-child {
+    flex-basis: 50%;
+}
+
+/* Partie pied de page */
+
+footer {
+    background-color: #8b4671;
+    clear: both;
+}
